@@ -1,5 +1,5 @@
 //alert("Heya! This is just the sign that you have a JS script loaded");
-
+/*
 
 // JS INTRO EXERCITII
 
@@ -32,7 +32,7 @@ var y=10;
 y+=2;
 console.log(y);
 
-//Operatori de comparare
+//Ope/ratori de comparare
 
 //EXERCITIUL 1
 
@@ -50,14 +50,14 @@ else{
 
 //Exercitiul 2
 
-/*varsta = prompt("care este varsta?");
+varsta = prompt("care este varsta?");
 if(varsta >= 18){
     console.log("Este major");
 }
 else{
     console.log("Este minor");
 }
-*/
+
 //Operatori logici
 //Exercitiul 1
 a =50;
@@ -115,14 +115,15 @@ else{
         console.log(i);
     }
 }
-*/
+
 //EXERCITIUL 4
 
 //EXERCITIUL 5
-
- var t = prompt("Care este numarul pentru tabla inmultirii?");
 console.log("Exercitiul 5");
+ var t = prompt("Care este numarul pentru tabla inmultirii?");
+
  for(i=0;i<=9;i++){
     var inmultire = t*i;
     console.log(t + "x" + i + "=" + inmultire );
  }
+ */
