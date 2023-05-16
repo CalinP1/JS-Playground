@@ -1,7 +1,7 @@
 // Tema suport curs
 
 // Exercitiul 1 
-/* O functie care verifica daca numarul primit ca si parametru este mai mic sau mai mare decat 10 */
+/* O functie care verifica daca numarul primit ca si parametru este mai mic sau mai mare decat 10 
 // Function is called, the return value will end up in x
 function verifZece(x){
 
@@ -18,11 +18,11 @@ function verifZece(x){
 let numar = Number(prompt("Care este numarul pe care vrei sa il compari cu 10?"));
 verifZece(numar);
 
-
+*/
 //Exercitul 2 din curs
  //Exercitiul 6 de pe Discord
 
-/* O functie care verifica daca numarul este prim. Returneaza true daca numarul este prim si false daca acesta nu este numar prim*/ 
+/* O functie care verifica daca numarul este prim. Returneaza true daca numarul este prim si false daca acesta nu este numar prim 
 
 function numarPrim(x){
     let ver=0;
@@ -47,11 +47,11 @@ if(numarPrim(ex2) == 1){
 else{
     console.log("Numarul nu este prim");
 }
-
+*/
 //EXercitiul 3 din curs  
 //Exercitiul 5 de pe Discord 
 
-/* O functie care primeste un numar si face suma tuturor numerelor dintre 0 si numarul ales*/
+/* O functie care primeste un numar si face suma tuturor numerelor dintre 0 si numarul ales
 
 function sumaNumerelor(x){
     let suma = 0;
@@ -63,11 +63,11 @@ function sumaNumerelor(x){
 
 let ex3 = Number(prompt("Alege numarul pentru care sa facem suma numerelor de la 0 pana la acesta"));
 console.log("Suma numerelor este = ",sumaNumerelor(ex3));
-
+*/
 //Exercitii de pe Discord
 
 //Exercitiul 4
-/* Functide care afiseaza daca un numar este par sau nu */
+/* Functide care afiseaza daca un numar este par sau nu 
 
 function numarPar(x){
     if(x%2 == 0){
@@ -84,9 +84,9 @@ if(numarPar(ex4)==1){
 else{
     console.log("Numarul este impar");
 }
-
+*/
 //Exercitiul 5
-/* O functie care primeste 2 numere, face suma acestora si o inmulteste cu 0.1 */
+/* O functie care primeste 2 numere, face suma acestora si o inmulteste cu 0.1 
 
 function sumaInmultita(a,b){
     let suma = a + b;
@@ -97,9 +97,9 @@ let numarSuma1 = Number(prompt("Exercitiul 5: Primul numar pentru suma"));
 let numarSuma2 = Number(prompt("Exercitiul 5: Al doilea numar pentru suma"));
 
 console.log("Suma dintre numere inmultita cu 0.1 este = ",sumaInmultita(numarSuma1,numarSuma2));
-
+*/
 //Exercitiul 6
-/* O functie care calculeaza procentul dintr-un numar */
+/* O functie care calculeaza procentul dintr-un numar 
 
 function procentDinNumar(numar, procent){
     let procentual = (procent * numar)/100;
@@ -109,9 +109,9 @@ let numarPtProcent = Number(prompt("Introdu numarul din care sa se calculeaza pr
 let procentul = Number(prompt("Introdu procentul care sa se foloseasca la calcul"));
 console.log("Procentul calculat este ",procentDinNumar(numarPtProcent,procentul));
 
-
+*/
 //Exercitiul 7
-/* O functie care primeste 3 numere si il returneaza pe cel mai mare dintre acestea */
+/* O functie care primeste 3 numere si il returneaza pe cel mai mare dintre acestea 
 
 function comparareDeTreiNumere (a,b,c){
 
@@ -130,9 +130,9 @@ let alDoileaNumarPentruComparatie = Number(prompt("Al doilea numar din cele 3 fo
 let alTreileaNumarPentruComparatie = Number(prompt("Al treilea numar din cele 3 folosite la comparatie"));
 
 console.log("Cel mai mare numar din cele 3 este ",comparareDeTreiNumere(primulNumarPentruComparatie, alDoileaNumarPentruComparatie,alTreileaNumarPentruComparatie));
-
+*/
 //Exercitiul 8
-/* Scrie o funcție care primește ca parametru o valoare numerica, iar apoi verifică dacă acea valoare este mai mare sau mai mică decât 0. Funcția trebuie să returneze un mesaj diferit în fiecare caz. */
+/* Scrie o funcție care primește ca parametru o valoare numerica, iar apoi verifică dacă acea valoare este mai mare sau mai mică decât 0. Funcția trebuie să returneze un mesaj diferit în fiecare caz. 
 
 function verifCuZero (x){
     if(x<0){
@@ -147,9 +147,9 @@ function verifCuZero (x){
 }
 let numarPtComparatiaCuZero = Number(prompt("Care este numarul pe care vrei sa il compari cu 0?"));
 verifCuZero(numarPtComparatiaCuZero);
-
+*/
 //Exercitiul 9
-/* 8. Scrie o functie care afiseaza toate numerele pare dintre un min si maxim dat ca parametru */
+/* 8. Scrie o functie care afiseaza toate numerele pare dintre un min si maxim dat ca parametru 
 
 function numereDintreUnMinSiMax(numar1, numar2)
 {   let nr = 0;
@@ -184,10 +184,10 @@ function numereDintreUnMinSiMax(numar1, numar2)
 let primulNumarMinMax = Number(prompt("Primul numar din functia min-max"));
 let alDoileaNumarMinMax = Number(prompt("Al doilea numar din functia min-max"));
 numereDintreUnMinSiMax(primulNumarMinMax,alDoileaNumarMinMax);
-
+*/
 //Exercitiul 10
 // 9. Scrie o functie care primeste 3 numere si afiseaza sir crescator cu acele numere.
-
+/* 
 function sirNumereCrescator(a,b,c){
     if(a <b && a<c && b<c){
         console.log(a + "<"+b+"<"+c);
@@ -245,9 +245,9 @@ sirNumereCrescator(numarul1DinSirCrescator,numarul2DinSirCrescator,numarul3DinSi
 
 
 
-
+*/
 //Exercitiul 11
-/* 10. Scrie o functie care primeste 3 numere si afiseaza sir descrescator cu acele numere.*/
+/* 10. Scrie o functie care primeste 3 numere si afiseaza sir descrescator cu acele numere.
 
 function sirNumereDescrescator(a,b,c){
     if(a >b && a>c && b>c){
@@ -343,4 +343,4 @@ function calcVarstaAnimal(x){
     return factor * x;
 }
 let varstaAnimal = Number(prompt("Cati ani omenesti are animalutul tau?"));
-console.log("Animalul tau are varsta de:",calcVarstaAnimal(varstaAnimal)," ani");
+console.log("Animalul tau are varsta de:",calcVarstaAnimal(varstaAnimal)," ani");*/
