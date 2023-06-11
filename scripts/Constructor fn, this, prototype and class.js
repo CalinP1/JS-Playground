@@ -132,3 +132,51 @@ numere.filtrareNrPare();
 //Exercitiul 9
 /*Creați o clasă "FormaGeometrica" care să aibă o metodă statică "descriere" care afișează o descriere generală a formei geometrice. Extindeți clasa pentru a crea subclase pentru forme geometrice specifice, cum ar fi "Cerc" și "Patrat". În fiecare subclasă, adăugați metode specifice pentru calculul ariei și a perimetrului și utilizați keyword-ul "super" pentru a accesa metodele și proprietățile clasei părinte.
  */
+class FormaGeometrica {
+    static descriere() {
+      console.log("Aceasta este o forma geometrica...");
+    }
+  }
+  
+  // afisez textul formei de baza
+  FormaGeometrica.descriere();
+  
+  // Cerc extinde FormaGeometrica
+  class Cerc extends FormaGeometrica {
+    constructor(r) {
+      super();
+      this.r = r;
+    }
+  
+    calculeazaAria() {
+      return Math.PI * this.r * this.r;
+    }
+  
+    calculeazaPerimetru() {
+      return 2 * Math.PI * this.r;
+    }
+  }
+  
+  // Patrat extinde FormaGeometrica
+  class Patrat extends FormaGeometrica {
+    constructor(latura) {
+      super();
+      this.latura = latura;
+    }
+  
+    calculeazaAria() {
+      return this.latura * 2;
+    }
+  
+    calculeazaPerimetru() {
+      return this.latura * 4;
+    }
+  }
+  
+  const cerc = new Cerc(10);
+  console.log("Aria cercului:", cerc.calculeazaAria());
+  console.log("Perimetrul cercului:", cerc.calculeazaPerimetru());
+  
+  const patrat = new Patrat(10);
+  console.log("Aria patratului:", patrat.calculeazaAria());
+  console.log("Perimetrul patratului:", patrat.calculeazaPerimetru());
