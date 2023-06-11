@@ -91,7 +91,7 @@ sirCaractere.inverseaza();
 //Exercitiul 7
 /* Creați o constructor function "Masina" care să aibă proprietăți precum "marca", "model" și "anFabricatie". Adăugați o metodă "afiseazaDetalii" la prototipul constructorului care să afișeze toate detaliile mașinii. Extindeți constructorul adăugând o proprietate statică "numarMasini" care să țină evidența numărului total de mașini create. Apoi, creați două instanțe ale clasei și afișați detaliile și numărul total de mașini create.
 */
-var nrMasini=0;
+
 function Masina (marca, model, anFabricatie){
     
     this.marca=marca;
